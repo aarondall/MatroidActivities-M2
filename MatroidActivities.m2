@@ -27,8 +27,11 @@ newPackage (
 	"MatroidActivities",
 	Version => "0.1",
 	Date => "2016 07 24",
-	Authors => {{Name => "Aaron Dall", Email => "aaronmdall -at- gmail.com", HomePage => "http://aarondall.com"}},
-	PackageExports => {"Posets","Matroids"},
+	Authors => {{
+		Name => "Aaron Dall",
+		Email => "aaronmdall -at- gmail.com",
+		HomePage => "http://aarondall.com"}},
+	PackageExports => {"Posets", "Matroids"},
 	Headline => "MatroidActivities",
 	DebuggingMode => true
 	)
@@ -37,38 +40,43 @@ needsPackage"SimpleDoc"
 
 export {
 	--Official functions--
-	--"relativeOrder",				 -- internal function
-	--"stringToList",				 -- internal function
-	--"listToString",				 -- internal function
-	"orderedMatroid",				 -- documented
-	"orderedGround",				 -- documented
-	"orderedBases",					 -- documented
-	"orderedCircuits",				 -- documented
-	"orderedCocircuits",			 -- documented
-	"orderedFlats",					 -- documented
-	"activeElements",				 -- documented
-	"duallyActiveElements",			 -- documented
-	"externallyActiveElements",		 -- documented
-	"externallyPassiveElements",	 -- documented
-	"internallyActiveElements",		 -- documented
-	"internallyPassiveElements",	 -- documented
-	"externalOrder",				 -- documented
-	"internalOrder",				 -- documented
-	"minimalBasis",					 -- documented
-	"internalBasisDecomposition",	 -- documented
-	"basisType",					 -- documented
-	"bjornersPartition",			 -- documented
-	"parallelClasses",				 -- documented
-	"matroidHVector",				 -- documented
-	"texActiveOrder",				 -- documented
+
+	--"relativeOrder", -- internal function
+	--"stringToList", -- internal function
+	--"listToString", -- internal function
+
+	"orderedMatroid", -- documented
+	"orderedGround", -- documented
+	"orderedBases", -- documented
+	"orderedCircuits", -- documented
+	"orderedCocircuits", -- documented
+	"orderedFlats", -- documented
+
+	"activeElements", -- documented
+	"duallyActiveElements", -- documented
+	"externallyActiveElements", -- documented
+	"externallyPassiveElements", -- documented
+	"internallyActiveElements", -- documented
+	"internallyPassiveElements", -- documented
+	"externalOrder", -- documented
+	"internalOrder", -- documented
+
+	"minimalBasis", -- documented
+	"internalBasisDecomposition", -- documented
+	"basisType", -- documented
+
+	"bjornersPartition", -- documented
+	"parallelClasses", -- documented
+	"matroidHVector", -- documented
+	"texActiveOrder", -- documented
 
 	--Tests--
-	"isActive",						 -- documented
-	"isDuallyActive",				 -- documented
-	"isInternallyPerfect",			 -- documented
+	"isActive", -- documented
+	"isDuallyActive", -- documented
+	"isInternallyPerfect", -- documented
 
 	--Types--
-	"OrderedMatroid" --hashTable 	 -- documented
+	"OrderedMatroid" --hashTable -- documented
 	}
 
 hasAttribute = value Core#"private dictionary"#"hasAttribute"

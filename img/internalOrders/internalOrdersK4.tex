@@ -1,0 +1,78 @@
+\documentclass{standalone}
+\usepackage{tikz}
+\begin{document}
+\tikzstyle{every node} = [draw = black, fill = white, rectangle, inner sep = 1pt]
+\begin{tikzpicture}[scale = 1]
+    \node (0) at (-0+0,0)    {\scriptsize${{}^{}_{012}}$};
+
+    \node (1) at (-1.5+0,1.33333)    {\scriptsize${{4}^{}_{01}}$};
+    \node (2) at (-1.5+1.5,1.33333)    {\scriptsize${{5}^{}_{01}}$};
+    \node (3) at (-1.5+3,1.33333)    {\scriptsize${{3}^{}_{02}}$};
+    \node (9) at (-3.75+0  ,2.66667)    {\scriptsize${{4}^{2}_{1}}$};
+    \node (7) at (-3.75+1.5,2.66667)    {\scriptsize${{45}^{}_{0}}$};
+    \node (5) at (-3.75+3  ,2.66667)    {\scriptsize${{34}^{}_{0}}$};
+    \node (4) at (-3.75+4.5,2.66667)    {\scriptsize${{5}^{2}_{0}}$};
+    \node (6) at (-3.75+6  ,2.66667)    {\scriptsize${{53}^{}_{0}}$};
+    \node (8) at (-3.75+7.5,2.66667)    {\scriptsize${{3}^{1}_{2}}$};
+    \node (15) at (-3.75+0  ,4)    {\scriptsize${{45}^{2}_{}}$};
+    \node (13) at (-3.75+1.5,4)    {\scriptsize${{34}^{2}_{}}$};
+    \node (12) at (-3.75+3  ,4)    {\scriptsize${{45}^{1}_{}}$};
+    \node (10) at (-3.75+4.5,4)    {\scriptsize${{34}^{1}_{}}$};
+    \node (14) at (-3.75+6  ,4)    {\scriptsize${{35}^{2}_{}}$};
+    \node (11) at (-3.75+7.5,4)    {\scriptsize${{35}^{1}_{}}$};
+  \foreach \to/\from in {0/1, 0/2, 0/3, 1/9, 1/5, 1/7, 2/4, 2/6, 2/7, 3/8, 3/5, 3/6, 4/14, 4/15, 5/13, 5/10, 6/14, 6/11, 7/12, 7/15, 8/10, 8/11, 9/13, 9/15}
+  \draw [-] (\to)--(\from);
+\end{tikzpicture}
+
+
+\tikzstyle{every node} = [draw = black, fill = white, rectangle, inner sep = 1pt]
+\begin{tikzpicture}[scale = 1]
+    \node (0) at (-0+0,0)    {\scriptsize${{}^{}_{014}}$};
+
+    \node (1) at (-1.5+0,1.33333)    {\scriptsize${{2}^{}_{01}}$};
+    \node (2) at (-1.5+1.5,1.33333)    {\scriptsize${{5}^{}_{01}}$};
+    \node (3) at (-1.5+3,1.33333)    {\scriptsize${{3}^{}_{04}}$};
+
+    \node (11) at (-3.75+0  ,2.66667)    {\scriptsize${{2}^{4}_{1}}$};
+    \node (7)  at (-3.75+1.5,2.66667)    {\scriptsize${{25}^{}_{0}}$};
+    \node (4)  at (-3.75+3  ,2.66667)    {\scriptsize${{23}^{}_{0}}$};
+    \node (6)  at (-3.75+4.5,2.66667)    {\scriptsize${{5}^{4}_{0}}$};
+    \node (5)  at (-3.75+6  ,2.66667)    {\scriptsize${{53}^{}_{0}}$};
+    \node (8)  at (-3.75+7.5,2.66667)    {\scriptsize${{3}^{1}_{4}}$};
+
+    \node (15) at (-3.75+0  ,4)    {\scriptsize${{25}^{4}_{}}$};
+    \node (13) at (-3.75+1.5,4)    {\scriptsize${{23}^{4}_{}}$};
+    \node (14) at (-3.75+3  ,4)    {\scriptsize${{253}^{}_{}}$};
+    \node (9) at  (-3.75+4.5,4)    {\scriptsize${{23}^{1}_{}}$};
+    \node (12) at (-3.75+6  ,4)    {\scriptsize${{5}^{14}_{}}$};
+    \node (10) at (-3.75+7.5,4)    {\scriptsize${{53}^{1}_{}}$};
+  \foreach \to/\from in {0/1, 0/2, 0/3, 1/4, 1/11, 1/7, 2/5, 2/6, 2/7, 3/8, 3/4, 3/5, 4/9, 4/13, 4/14, 5/10, 5/14, 6/12, 6/15, 7/14, 7/15, 8/9, 8/10, 11/13, 11/15}
+  \draw [-] (\to)--(\from);
+\end{tikzpicture}
+
+
+\tikzstyle{every node} = [draw = black, fill = white, rectangle, inner sep = 1pt]
+\begin{tikzpicture}[scale = 1]
+    \node (0) at (-0+0,0)    {\scriptsize${{}^{}_{051}}$};
+
+    \node (1) at (-1.5+0,1.33333)    {\scriptsize${{2}^{}_{05}}$};
+    \node (2) at (-1.5+1.5,1.33333)    {\scriptsize${{3}^{}_{05}}$};
+    \node (3) at (-1.5+3,1.33333)    {\scriptsize${{4}^{}_{05}}$};
+
+    \node (4) at  (-3.75+0  ,2.66667)    {\scriptsize${{2}^{1}_{0}}$};
+    \node (6) at  (-3.75+1.5,2.66667)    {\scriptsize${{23}^{}_{0}}$};
+    \node (11) at (-3.75+3  ,2.66667)    {\scriptsize${{24}^{}_{5}}$};
+    \node (8) at  (-3.75+4.5,2.66667)    {\scriptsize${{3}^{1}_{5}}$};
+    \node (7) at  (-3.75+6  ,2.66667)    {\scriptsize${{34}^{}_{0}}$};
+    \node (5) at  (-3.75+7.5,2.66667)    {\scriptsize${{4}^{1}_{0}}$};
+
+    \node (12) at (-3.75+0  ,4)    {\scriptsize${{23}^{1}_{}}$};
+    \node (13) at (-3.75+1.5,4)    {\scriptsize${{24}^{1}_{}}$};
+    \node (10) at (-3.75+3  ,4)    {\scriptsize${{23}^{5}_{}}$};
+    \node (15) at (-3.75+4.5,4)    {\scriptsize${{234}^{}_{}}$};
+    \node (14) at (-3.75+6  ,4)    {\scriptsize${{34}^{1}_{}}$};
+    \node (9) at 	(-3.75+7.5,4)    {\scriptsize${{4}^{51}_{}}$};
+  \foreach \to/\from in {0/1, 0/2, 0/3, 1/4, 1/6, 1/11, 2/8, 2/6, 2/7, 3/5, 3/11, 3/7, 4/12, 4/13, 5/9, 5/13, 5/14, 6/12, 6/10, 6/15, 7/14, 7/15, 8/12, 8/14, 11/13, 11/15}
+  \draw [-] (\to)--(\from);
+\end{tikzpicture}
+\end{document}

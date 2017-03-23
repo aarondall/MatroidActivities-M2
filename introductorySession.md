@@ -611,7 +611,7 @@ We are interested in the dual to the matroid _N_, but we point out that _N_ is a
 
 	{0, 3, 5, 1, 2, 4, 6, 7, 8, 9 }.
 
-We will show that the dual matroid _M = N^\*_ is *interesting*, that is, that it is internally perfect (and hence satisfies Stanley's Conjecture) and that it is not in any of the classes of matroids for which Stanley's Conjecture was previously known to hold. First we create _M_ and check that it is internally perfect with respect to the natural order on the ground set.
+We will show that the dual matroid _M = N<sup>*</sup>_ is *interesting*, that is, that it is internally perfect (and hence satisfies Stanley's Conjecture) and that it is not in any of the classes of matroids for which Stanley's Conjecture was previously known to hold. First we create _M_ and check that it is internally perfect with respect to the natural order on the ground set.
 
 	i62 : M = orderedMatroid dualMatroid N.matroid;
 
@@ -625,17 +625,12 @@ By the general theory for internally perfect matroids, it follows that the matro
 
 Since each of the maximal bases is internally perfect, there is a unique way to write each as a join of _f_-principal bases. We have
 
- + _B\_1 = 789^{1346}\_{\emptyset} = 7^{1346}\_{25} \vee 8^{\emptyset}\_{012346} \vee 9^{\emptyset}\_{013456}_
-
- + _B\_2 = 789^{1345}\_{\emptyset} = 7^{\emptyset}\_{012345} \vee 8^{1345}\_{26} \vee 9^{\emptyset}\_{013456}_
-
- + _B\_3 = 789^{2346}\_{\emptyset} = 7^{346}\_{025} \vee 8^{\emptyset}\_{012346} \vee 9^{2}\_{03456}_
-
- + _B\_4 = 789^{2345}\_{\emptyset} = 7^{\emptyset}\_{012345} \vee 8^{345}\_{026} \vee 9^{2}\_{03456}_
-
- + _B\_5 = 789^{1246}\_{\emptyset} = 7^{46}\_{0125} \vee 8^{\emptyset}\_{012346} \vee 9^{12}\_{3456}_
-
- + _B\_6 = 789^{1245}\_{\emptyset} = 7^{\emptyset}\_{012345} \vee 8^{45}\_{0126} \vee 9^{12}\_{3456}_
+ + _B\_1 = 789<sup>1346</sup> = 7<sup>1346</sup><sub>25</sub> v <sub>012346</sub> 						v 9<sub>013456</sub>
+ + _B\_2 = 789<sup>1345</sup> = 7<sub>012345</sub> 						v <sup>1345</sup><sub>26</sub>} v 9<sub>013456</sub>
+ + _B\_3 = 789<sup>2346</sup> = 7<sup>346</sup>025<sub></sub> v <sub>012346</sub> 						v 9<sup>2</sup><sub>03456</sub>
+ + _B\_4 = 789<sup>2345</sup> = 7<sub>012345</sub> 						v <sup>345</sup><sub>026</sub>  v 9<sup>2</sup><sub>03456</sub>
+ + _B\_5 = 789<sup>1246</sup> = 7<sup>46</sup><sub>0125</sub> v <sub>012346</sub> 						v 9<sup>12</sup><sub>3456</sub>
+ + _B\_6 = 789<sup>1245</sup> = 7<sub>012345</sub> 						v <sup>45</sup><sub>0126</sub>  v 9<sup>12</sup><sub>3456</sub>
 
 Notice that each internally passive element of a maximal basis occurs exactly once in the decomposition as joins of _f_-principal bases.
 

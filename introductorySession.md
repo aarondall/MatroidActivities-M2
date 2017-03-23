@@ -528,7 +528,7 @@ It is often useful to visualize a poset via its Hasse diagram. The `Posets` pack
 	  \draw [-] (\to)--(\from);
 	\end{tikzpicture}
 
-In the rendered poset a bases _B_ is given as a triple _B = S^T_A_ where _A_ is the set of internally active elements of _B_ and the sets _S_ and _T_ are as follows. Let _B_0_ be the lexicographically least basis of the ordered matroid. Then _T_ (respectively, _S_) is the set of internally passive elements of _B_ that are (not) in _B_0_. In the above example the lexicographically least basis is _B_0 = \{0,1,2\}_. So the basis _\{0,2,5\}_ is has _A = \{0\}, T = \{2\}_ and _S= \{5\}_. We will use such decompositions of bases in what follows to define *internally perfect* bases and matroids.
+In the rendered poset a bases _B_ is given as a triple _B = S <sup>T</sup> <sub>A</sub> where _A_ is the set of internally active elements of _B_ and the sets _S_ and _T_ are as follows. Let _B_0_ be the lexicographically least basis of the ordered matroid. Then _T_ (respectively, _S_) is the set of internally passive elements of _B_ that are (not) in _B_0_. In the above example the lexicographically least basis is _B_0 = \{0,1,2\}_. So the basis _\{0,2,5\}_ is has _A = \{0\}, T = \{2\}_ and _S= \{5\}_. We will use such decompositions of bases in what follows to define *internally perfect* bases and matroids.
 
 *Note*: A LaTeX file containing Hasse diagrams of a representative for each of the three isomorphism classes of internal orders of _K_4_ can be found [here](https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/internalOrders/internalOrdersK4.tex).
 

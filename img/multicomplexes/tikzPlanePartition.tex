@@ -1,0 +1,104 @@
+%!TEX option = -shell-escape
+
+% Plane partitions
+%  Jang Soo Kim wrote the original lovely code for this.
+%  That version can be found here:
+%  http://www.texample.net/tikz/examples/plane-partition/
+
+\documentclass[convert={density=300,size=1080x800,outext=.png}]{standalone}
+\usepackage{tikz}
+
+\usepackage{verbatim}
+\usepackage[active,tightpage]{preview} % get a bit of white space around rendered image
+\PreviewEnvironment{tikzpicture}
+\setlength\PreviewBorder{5pt}
+
+
+% Three counters
+\newcounter{x}
+\newcounter{y}
+\newcounter{z}
+
+% The angles of x,y,z-axes
+\newcommand\xaxis{210}
+\newcommand\yaxis{-30}
+\newcommand\zaxis{90}
+% \newcommand\xaxis{180}
+% \newcommand\yaxis{-60}
+% \newcommand\zaxis{60}
+
+%-------------------------
+%  Define the color palette
+%-------------------------
+\definecolor{myOrange}{HTML}{FF0020}  %mostly pure orange
+% \definecolor{myRed}{HTML}   {FF2A00}    % ff2a00 mostly pure red (opacity = 75%)
+\definecolor{myRed}{RGB}{255,42,0} %a decent red
+\definecolor{myCyan}{HTML}  {00FFFF}   % 00ffff mostly pure cyan
+% \definecolor{myGreen}{HTML} {7FFF7F}  % 7fff7f very light lime green
+\definecolor{myGreen}{RGB}{0,150,100}
+\definecolor{myBlue}{HTML}{1B60FF}   % 1b60ff vivid blue
+% \definecolor{myViolet}{HTML}{} % ad4fff light violet
+
+
+
+
+% The top side of a cube
+\newcommand\topside[3]{
+  % \fill[fill=black, draw=black,shift={(\xaxis:#1)},shift={(\yaxis:#2)},
+  \fill[fill=myBlue!55, draw=black,shift={(\xaxis:#1)},shift={(\yaxis:#2)},
+  shift={(\zaxis:#3)}] (0,0) -- (30:1) -- (0,1) --(150:1)--(0,0);
+}
+
+% The left side of a cube
+\newcommand\leftside[3]{
+  % \fill[fill=black!30!gray, draw=black,shift={(\xaxis:#1)},shift={(\yaxis:#2)},
+  \fill[fill=myGreen!55, draw=black,shift={(\xaxis:#1)},shift={(\yaxis:#2)},
+  shift={(\zaxis:#3)}] (0,0) -- (0,-1) -- (210:1) --(150:1)--(0,0);
+}
+
+% The right side of a cube
+\newcommand\rightside[3]{
+  % \fill[fill=black!35!myRed, draw=black,shift={(\xaxis:#1)},shift={(\yaxis:#2)},
+  \fill[fill=myRed!65, draw=black,shift={(\xaxis:#1)},shift={(\yaxis:#2)},
+  shift={(\zaxis:#3)}] (0,0) -- (30:1) -- (-30:1) --(0,-1)--(0,0);
+}
+
+% The cube
+\newcommand\cube[3]{
+  \topside{#1}{#2}{#3} \leftside{#1}{#2}{#3} \rightside{#1}{#2}{#3}
+}
+
+% Definition of \planepartition
+% To draw the following plane partition, just write \planepartition{ {a, b, c}, {d,e} }.
+%  a b c
+%  d e
+\newcommand\planepartition[1]{
+ \setcounter{x}{-1}
+  \foreach \a in {#1} {
+    \addtocounter{x}{1}
+    \setcounter{y}{-1}
+    \foreach \b in \a {
+      \addtocounter{y}{1}
+      \setcounter{z}{-1}
+      \foreach \c in {1,...,\b} {
+        \addtocounter{z}{1}
+        \cube{\value{x}}{\value{y}}{\value{z}}
+      }
+    }
+  }
+}
+
+\begin{document}
+
+\begin{tikzpicture}[scale=.9]
+\planepartition{
+  {3,3,3,1,1},  % x=0
+  % {3,3,3,1,1},    % x=1
+  {3,2,2},        % x=2
+  {3},          % x=3
+  {2},           % x=4
+  {1},           % x=5
+  }
+\end{tikzpicture}
+
+\end{document}

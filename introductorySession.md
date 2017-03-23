@@ -693,7 +693,7 @@ To see that _M_ is not paving we use the method `isPavingMatroid`.
 
 	o69 = false
 
-Indeed _M_ is a rank seven matroid on ten elements with no coloops and has two circuits of size four.
+Indeed _M_ is a rank seven matroid with two circuits of size four.
 
 	i70 : tally apply (M.orderedCircuits, C -> #C)
 

@@ -148,7 +148,7 @@ Two important invariants of a matroid are the _f_- and _h_-vectors of its indepe
 
 	o13 : ZZ[q]
 
-Another useful algebraic construction is the [Chow ring of a matroid][AHK] which is a quotient of QQ[_x_F_] with one variable for every nonempty proper flat.
+Another useful algebraic construction is the [Chow ring of a matroid][AHK] which is a quotient of QQ[x<sub>F</sub>] with one variable for every nonempty proper flat.
 
 	i14 : matroidChowIdeal M
 
@@ -381,7 +381,7 @@ A second simplicial complex associated to any ordered matroid is the [(no) broke
 
 	o37 : SimplicialComplex
 
-For our small example, the broken circuit complex has two of the three (facets corresponding to) bases of _OM_ as facets. The third basis _x_0x_1_ is not a facet of the broken circuit complex because it is a broken circuit with respect to the ordering _2 < 0 < 1_.
+For our small example, the broken circuit complex has two of the three (facets corresponding to) bases of _OM_ as facets. The third basis _x<sub>0</sub>x<sub>1</sub> is not a facet of the broken circuit complex because it is a broken circuit with respect to the ordering _2 < 0 < 1_.
 
 The faces of the broken circuit complex of a matroid are a basis for the Orlik-Solomon algebra. To confirm this let's compute a basis of _A_.
 
@@ -401,7 +401,7 @@ In this section we turn to the methods included in [MatroidActivities][MA] that 
 
 By matroid duality internal and external activities are equivalent, so we will focus our attention here on internal activity. For the most part, every method available for computing internal activities has a counterpart for computing directly with external activities.
 
-Given an ordered matroid _M_ on the ground set _E_ and a subset _A \subseteq E_, an element _e_ is **internally active** with respect to _A_ if _e \in A_ and there is a cocircuit _C^\*_ contained in _E \setminus A \cup \{e\}_ such that _e_ is the least element of _C^\*_. If _e \in A_ is not internally active, then it is called **internally passive**.
+Given an ordered matroid _M_ on the ground set _E_ and a subset _A_ of  _E_, an element _e_ is **internally active** with respect to _A_ if _e_ is in _A_ and there is a cocircuit _C<sup>\*</sup>_ contained in _E - A \cup e_ such that _e_ is the least element of _C<sup>\*</sup>_. If _e_ is in  _A_ and is not internally active, then it is called **internally passive**.
 
 Let's compute the internally active elements with respect to every subset of our running example. First let's view the ordered cocircuits.
 
@@ -449,9 +449,7 @@ It is crucial to realize that internal activities depend on the ground set. For 
 
 	o45 : HashTable
 
-When restricted to the bases of an ordered matroid the definition of internal activity can be restated as follows. An element _e_ in a basis _B_ is internally active if there is no lexicographically smaller basis (with respect to the linear order on the ground set) that contains _B \setminus \{e\}_.
-
-The internal order of an ordered matroid _M_ is the poset _P = (\mathcal{B}, \prec)_ where two basis _B,B'_ of _M_ satisfy _B \prec B'_ if every internally passive element of _B_ is internally passive in _B'_. The internal order of an ordered matroid can be computed using the method `internalOrder` which in turn uses methods from the [Posets][Posets] package written by Kristine Fisher, [Andrew Hoefel](https://scholar.google.com/citations?user=puuoR2MAAAAJ&hl=en), [Manoj Kummini](http://www.cmi.ac.in/~mkummini/), Stephen Sturgeon, and [Josephine Yu](http://people.math.gatech.edu/~jyu67/).
+When restricted to the bases of an ordered matroid the definition of internal activity can be restated as follows. An element _e_ in a basis _B_ is internally active if there is no lexicographically smaller basis (with respect to the linear order on the ground set) that contains _B - \{e\}_.T internal order of an ordered matroid _M_ is the poset _P = (\m_ais in a_l{Band }, \prec)_ where two basis _B,B'_ of _M_ satisfy _B \prec B'_ if every internally passive element of _B_ is internally passive in _B'_. The internal order of an ordered matroid can be computed using the method `internalOrder` which in turn uses methods from the [Posets][Posets] package written by Kristine Fisher, [Andrew Hoefel](https://scholar.google.com/citations?user=puuoR2MAAAAJ&hl=en), [Manoj Kummini](http://www.cmi.ac.in/~mkummini/), Stephen Sturgeon, and [Josephine Yu](http://people.math.gatech.edu/~jyu67/).
 
 	i46 : internalOrder OM
 
@@ -720,7 +718,7 @@ Next we want to see that the dual of _M_ is not a graphic matroid. One can do th
 
 	o72 = false
 
-It is well-known that a matroid is not transversal if it has as a minor the graphic matroid _G_ on _[3]_ with two edges between every pair of vertices. It's easy to see that the minor _N \setminus \\{0,1,2,9\\}_ is isomorphic to _G_ as removing the corresponding columns from `mat` leaves us with the signed vertex-edge incidence matrix of _G_.
+It is well-known that a matroid is not transversal if it has as a minor the graphic matroid _G_ on _[3]_ with two edges between every pair of vertices. It's easy to see that the minor _N - \\{0,1,9}_ is isomorphic to _G_ as removing the corresponding columns f_ris in `_matand ` leaves us with the signed vertex-edge incidence matrix of _G_.
 
 	i73 : mat_{3,4,5,6,7,8}
 

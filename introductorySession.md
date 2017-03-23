@@ -691,6 +691,7 @@ This multicomplex is pure since its maximal elements all have total degree 7. Le
 
 	o68 : ZZ[q]
 
+As the _O_-sequence of the pure multicomplex and the _h_-polynomial of the matroid coincide, we have verified that the matroid _M_ satisfies Stanley's Conjecture.
 
 We now turn to showing that the matroid _M_ is not in any of the classes of matroids for which Stanley's Conjecture was previously known to hold.
 

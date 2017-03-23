@@ -609,7 +609,7 @@ Let _N_ be the ordered vector matroid given by the columns of the following matr
 
 We are interested in the dual to the matroid _N_, but we point out that _N_ is an internally perfect matroid with respect to, for example, the order
 
-	\\[{0, 3, 5, 1, 2, 4, 6, 7, 8, 9 }.\\]
+	{0, 3, 5, 1, 2, 4, 6, 7, 8, 9 }.
 
 We will show that the dual matroid _M = N^\*_ is *interesting*, that is, that it is internally perfect (and hence satisfies Stanley's Conjecture) and that it is not in any of the classes of matroids for which Stanley's Conjecture was previously known to hold. First we create _M_ and check that it is internally perfect with respect to the natural order on the ground set.
 

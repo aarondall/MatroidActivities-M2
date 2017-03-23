@@ -570,11 +570,11 @@ In the previous section we saw how to compute basis types of an ordered matroid 
 <a name="stanleys-conjecture"></a>
 #### Stanley's Conjecture  ####
 
-In a 1977 [paper][ST], Richard Stanley showed that the _h_-polynomial of a matroid is an _O_-sequence and conjectured that it is a *pure* _O_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials _**M**_ such that
+In a 1977 [paper][ST], Richard Stanley showed that the _h_-polynomial of a matroid is an _O_-sequence and conjectured that it is a *pure* _O_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials  **M** such that
 
- 1. if _\mathbf{m} \in **M**_ and _\mathbf{m}'_ divides _\mathbf{m}_, then _\mathbf{m}' \in **M**_,
- 2. the maximal elements of _**M**_ (with respect to divisibility) all have the same total degree, and
- 3. the number of elements of _**M**_ with total degree _i_ equals the coefficient on _q^i_ in the _h_-polynomial of the matroid _M_.
+ 1. if _\mathbf{m} \in **M** and _\mathbf{m}'_ divides _\mathbf{m}_, then _\mathbf{m}' \in **M**,
+ 2. the maximal elements of  **M** (with respect to divisibility) all have the same total degree, and
+ 3. the number of elements of  **M** with total degree _i_ equals the coefficient on _q^i_ in the _h_-polynomial of the matroid _M_.
 
 Such a collection of monomials is called a *pure multicomplex*.
 

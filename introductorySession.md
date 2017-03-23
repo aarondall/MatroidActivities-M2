@@ -570,7 +570,7 @@ In the previous section we saw how to compute basis types of an ordered matroid 
 <a name="stanleys-conjecture"></a>
 #### Stanley's Conjecture  ####
 
-In a 1977 [paper][ST], Richard Stanley showed that the _h_-polynomial of a matroid is an _O_-sequence and conjectured that it is a *pure* _O_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials  **M** such that
+In a 1977 [paper][ST], [Richard Stanley](https://www-math.mit.edu/~rstan/) showed that the _h_-polynomial of a matroid is an _O_-sequence and conjectured that it is a *pure* _O_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials  **M** such that
 
  1. if _**m**_ in **M** and _**m**'_ divides _**m**_, then _**m**'_ \in **M**,
  2. the maximal elements of  **M** (with respect to divisibility) all have the same total degree, and

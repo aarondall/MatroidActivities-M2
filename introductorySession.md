@@ -530,7 +530,7 @@ It is often useful to visualize a poset via its Hasse diagram. The `Posets` pack
 
 In the rendered poset a bases _B_ is given as a triple _B = S <sup>T</sup> <sub>A</sub> where _A_ is the set of internally active elements of _B_ and the sets _S_ and _T_ are as follows. Let _B_0_ be the lexicographically least basis of the ordered matroid. Then _T_ (respectively, _S_) is the set of internally passive elements of _B_ that are (not) in _B_0_. In the above example the lexicographically least basis is _B_0 = \{0,1,2\}_. So the basis _\{0,2,5\}_ is has _A = \{0\}, T = \{2\}_ and _S= \{5\}_. We will use such decompositions of bases in what follows to define *internally perfect* bases and matroids.
 
-*Note*: A LaTeX file containing Hasse diagrams of a representative for each of the three isomorphism classes of internal orders of _K_4_ can be found [here](https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/internalOrders/internalOrdersK4.tex).
+*Note*: A LaTeX file containing Hasse diagrams of a representative for each of the three isomorphism classes of internal orders of _K<sub>4</sub>_ can be found [here](https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/internalOrders/internalOrdersK4.tex).
 
 <a name="tests-for-ordered-matroids"></a>
 #### Tests for Ordered Matroids ####
@@ -539,7 +539,7 @@ Let _M_ be an ordered matroid and _B = S<sup>T</sup><sub>A</sub>_ be a basis, wh
 
 There are some bases of every ordered matroid that can be written as the join (in the internal order) of _f_-principal bases in a unique way. Such bases are called (**internally**) **perfect bases**. For example, every _f_-principal basis is trivially perfect, as are those bases of the form _B = S<sup>T</sup><sub>A</sub>_ where _T_ is the empty set. A basis that can be written as the join of _f_-principal bases in more than one way is called an **abundant** basis, while a basis that cannot be written as the join of _f_-principal bases is **deficient**. The method `basisType` allows one to test whether a basis is perfect, abundant, or deficient.
 
-Let's check how many bases of each type the ordered matroid _K_4_ with the natural ordering has.
+Let's check how many bases of each type the ordered matroid _K<sub>4</sub>_ with the natural ordering has.
 
 	i56 : OM = orderedMatroid M;
 
@@ -551,7 +551,7 @@ Let's check how many bases of each type the ordered matroid _K_4_ with the natur
 
 	o57 : Tally
 
-So the complete graph on four vertices with the natural ordering on the edges furnishes an example in which all three basis types appear. A LaTeX file containing Hasse diagrams of a representative for each isomorphism class of internal orders of _K_4_ can be found [here](https://github.com/aarondall/MatroidActivities-M2/blob/master/internalOrdersK4.tex). In the next section we discuss ordered matroids which have only internally perfect bases. Such ordered matroids are called **internally perfect matroids** and were introduced in the article [Internally Perfect Matroids][Da]. One can test if an ordered matroid is internally perfect using the method `isInternallyPerfect`.
+So the complete graph on four vertices with the natural ordering on the edges furnishes an example in which all three basis types appear. A LaTeX file containing Hasse diagrams of a representative for each isomorphism class of internal orders of _K<sub>4</sub>_ can be found [here](https://github.com/aarondall/MatroidActivities-M2/blob/master/internalOrdersK4.tex). In the next section we discuss ordered matroids which have only internally perfect bases. Such ordered matroids are called **internally perfect matroids** and were introduced in the article [Internally Perfect Matroids][Da]. One can test if an ordered matroid is internally perfect using the method `isInternallyPerfect`.
 
 	i58 : isInternallyPerfect OM
 

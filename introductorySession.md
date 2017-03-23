@@ -148,7 +148,7 @@ Two important invariants of a matroid are the _f_- and _h_-vectors of its indepe
 
 	o13 : ZZ[q]
 
-Another useful algebraic construction is the [Chow ring of a matroid][AHK] which is a quotient of $\mathbb{Q}[\mathbf{x}]$ with one variable for every nonempty proper flat.
+Another useful algebraic construction is the [Chow ring of a matroid][AHK] which is a quotient of _\mathbb{Q}[\mathbf{x}]_ with one variable for every nonempty proper flat.
 
 	i14 : matroidChowIdeal M
 

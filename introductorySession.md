@@ -645,7 +645,7 @@ We now produce a pure multicomplex whose _O_-sequence is precisely the _h_-vecto
 
 For a basis _B = S<sup>T</sup><sub>A</sub>_ and an _f_ in _S_ let _B<sub>f</sub>_ be the _f_-principal basis occurring in the decomposition of _B_ as a join of _f_-principal bases. For an _f_-principal basis of _M_ define the map _µ_ into the polynomial ring _R_ via
 
-\\[\mu(B_f) = x^{|IP(B_f)|}\_f.\\]
+_µ(B<sub>f</sub>) = x^{|IP(B<sub>f</sub>)|}_.
 
 Since every basis of _M_ has a unique decomposition into a join of _f_-principal bases this map extends uniquely to a map on the bases of _M_. In our example we have
 

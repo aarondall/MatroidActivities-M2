@@ -643,7 +643,7 @@ We now produce a pure multicomplex whose _O_-sequence is precisely the _h_-vecto
 
 	i64 : R = ZZ[x_7,x_8,x_9];
 
-For a basis _B = S^T\_A_ and an _f \in S_ let _B\_f_ be the _f_-principal basis occurring in the decomposition of _B_ as a join of _f_-principal bases. For an _f_-principal basis of _M_ define the map _\mu_ into the polynomial ring _R_ via
+For a basis _B = S<sup>T</sup><sub>A</sub>_ and an _f_ in _S_ let _B<sub>f</sub>_ be the _f_-principal basis occurring in the decomposition of _B_ as a join of _f_-principal bases. For an _f_-principal basis of _M_ define the map _µ_ into the polynomial ring _R_ via
 
 \\[\mu(B_f) = x^{|IP(B_f)|}\_f.\\]
 

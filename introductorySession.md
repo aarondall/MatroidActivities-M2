@@ -581,12 +581,12 @@ Such a collection of monomials is called a *pure multicomplex*.
 Stanley's Conjecture has spurred a great deal of research concerning _h_-polynomials of matroids and _O_-sequences. It is known to hold for a rank _r_ matroid _M_ on _n_ elements with _c_ coloops if any of the following conditions hold:
 
  + _M_ is paving;
- + _h_s (M)~\le~5_, where _s = r - c_ is the degree of the _h_-polynomial;
- + _M^\*_ is graphic;
- + _M^\*_ is transversal;
- + _M^\*_ has no more than _n - r + 2_ parallel classes;
- + _n \le 9_ or _n-r \le 2_;
- + _r \le 4_; or
+ + _h<sub>s</sub> (M) ≤ 5_, where _s = r - c_ is the degree of the _h_-polynomial;
+ + _M<sup>*</sup>_ is graphic;
+ + _M<sup>*</sup>_ is transversal;
+ + _M<sup>*</sup>_ has no more than _n - r + 2_ parallel classes;
+ + _n ≤ 9_ or _n-r ≤ 2_;
+ + _r ≤ 4_; or
  + _M_ is internally perfect for some ordering of the ground set.
 
 Let us call a matroid *interesting* if it is internally perfect but is not in any of the other classes listed above. The goal of the remainder of this section is to work out Example 6 from [Internally Perfect Matroids][DA] which shows that *interesting* matroids do exist.

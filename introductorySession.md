@@ -199,7 +199,7 @@ The beta invariant of a matroid is an evaluation of the derivative of the charac
 <a name="combinatorial-constructions-with-unordered-matroids"></a>
 #### Combinatorial Constructions with Unordered Matroids ####
 
-In the [MatroidActivities][MA] many of the algebraic constructions are considered as such since computing them using the algebraic methods in Macaulay2 leads to clean code and fast algorithms. Of course, from a theoretical standpoint many of them are purely combinatorial. For example, in this package the characteristic polynomial of a matroid is computed as a transformation of the Hilbert series of the Orlik-Solomon algebra. We could get the same result by computing the characteristic polynomial of the lattice of flats of a matroid, but this turns out to be much slower.
+In [MatroidActivities][MA] many of the algebraic constructions are considered as such since computing them using the algebraic methods in Macaulay2 leads to clean code and fast algorithms. Of course, from a theoretical standpoint many of them are purely combinatorial. For example, in this package the characteristic polynomial of a matroid is computed as a transformation of the Hilbert series of the Orlik-Solomon algebra. We could get the same result by computing the characteristic polynomial of the lattice of flats of a matroid, but this turns out to be much slower.
 
 	i21 : time matroidCharacteristicPolynomial M
 	     -- used 0.000092 seconds

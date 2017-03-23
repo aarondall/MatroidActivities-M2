@@ -619,7 +619,7 @@ We will show that the dual matroid _M = N<sup>*</sup>_ is *interesting*, that is
 
 	o63 = true
 
-By the general theory for internally perfect matroids, it follows that the matroid _M_ satisfies Stanley's Conjecture since its internal order is isomorphic to a pure multicomplex (ordered by divisibility). We will now produce such a multicomplex. First consider the maximal elements in the Hasse diagram of the internal order of _M_.
+By the general theory for internally perfect matroids, it follows that the matroid _M_ satisfies Stanley's Conjecture since its internal order is isomorphic to a pure multicomplex (ordered by divisibility). We will now produce such a multicomplex. First consider the six maximal elements in the Hasse diagram of the internal order of _M_.
 
 ![internal order][intOrd]
 

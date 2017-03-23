@@ -669,7 +669,7 @@ To create a multicomplex where these monomials are the maximal elements, we use 
 
 	i66 : multicomplex = fold (union, apply (maxMonomials, m -> divisorPoset m))
 
-Using [this](https://github.com/aarondall/MatroidActivities-M2/blob/master/img/multicomplexes/tikzPlanePartition.tex) variation of [this](http://www.texample.net/tikz/examples/plane-partition/) clever TikZ gadget we have a way to visualize the resulting multicomplex.
+Using [this](https://github.com/aarondall/MatroidActivities-M2/blob/master/img/multicomplexes/tikzPlanePartition.tex) variation of [this](http://www.texample.net/tikz/examples/plane-partition/) clever TikZ gadget by [Jang Soo Kim](https://sites.google.com/site/mathjskim/) we have a way to visualize the resulting multicomplex.
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/multicomplexes/interestingExample.png" width="482" height="340"/>

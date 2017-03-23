@@ -535,9 +535,9 @@ In the rendered poset a bases _B_ is given as a triple _B = S <sup>T</sup> <sub>
 <a name="tests-for-ordered-matroids"></a>
 #### Tests for Ordered Matroids ####
 
-Let _M_ be an ordered matroid and _B = S^T_A_ be a basis, where _S,T,_ and _A_ are as in the previous section. Then _B_ is called an _f_-**principal basis** if there is an element _f \in E_ such that _S = \\{f\\}_.
+Let _M_ be an ordered matroid and _B = S<sup>T</sup><sub>A</sub>_ be a basis, where _S,T,_ and _A_ are as in the previous section. Then _B_ is called an _f_-**principal basis** if there is an element _f_ in _E_ such that _S = \{f\}_.
 
-There are some bases of every ordered matroid that can be written as the join (in the internal order) of _f_-principal bases in a unique way. Such bases are called (**internally**) **perfect bases**. For example, every _f_-principal basis is trivially perfect, as are those bases of the form _B = S^T_A_ where _T_ is the empty set. A basis that can be written as the join of _f_-principal bases in more than one way is called an **abundant** basis, while a basis that cannot be written as the join of _f_-principal bases is **deficient**. The method `basisType` allows one to test whether a basis is perfect, abundant, or deficient.
+There are some bases of every ordered matroid that can be written as the join (in the internal order) of _f_-principal bases in a unique way. Such bases are called (**internally**) **perfect bases**. For example, every _f_-principal basis is trivially perfect, as are those bases of the form _B = S<sup>T</sup><sub>A</sub>_ where _T_ is the empty set. A basis that can be written as the join of _f_-principal bases in more than one way is called an **abundant** basis, while a basis that cannot be written as the join of _f_-principal bases is **deficient**. The method `basisType` allows one to test whether a basis is perfect, abundant, or deficient.
 
 Let's check how many bases of each type the ordered matroid _K_4_ with the natural ordering has.
 

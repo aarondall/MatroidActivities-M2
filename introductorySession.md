@@ -669,7 +669,7 @@ To create a multicomplex where these monomials are the maximal elements, we use 
 
 	i66 : multicomplex = fold (union, apply (maxMonomials, m -> divisorPoset m))
 
-This multicomplex is pure since its maximal elements all have the same total degree. Let's check that it has the correct _O_-sequence using the `rankGeneratingFunction` method from the `Posets` package.
+This multicomplex is pure since its maximal elements all have total degree 7. Let's check that it has the correct _O_-sequence using the `rankGeneratingFunction` method from the `Posets` package.
 
 	i67 : rankGeneratingFunction multicomplex
 

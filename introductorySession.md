@@ -649,15 +649,15 @@ _µ(B<sub>f</sub>) = x<sup>|IP(B<sub>f</sub>)|</sup>_.
 
 Since every basis of _M_ has a unique decomposition into a join of _f_-principal bases this map extends uniquely to a map on the bases of _M_. In our example we have
 
- + _B<sub>1</sub>_ goes to  _x<sup>5</sup><sub>7</sub> x<sub>8</sub> x<sub>9</sub>_,
+ + _B<sub>1</sub>_ goes to  _x<sub>7</sub><sup>5</sup> x<sub>8</sub> x<sub>9</sub>_,
 
  + _B<sub>2</sub>_ goes to  _x<sub>7</sub> x<sub>8</sub><sup>5</sup> x<sub>9</sub>_,
 
- + _B<sub>3</sub>_ goes to  _x<sup>4</sup><sub>7</sub> x<sub>8</sub> x<sub>9</sub><sup>2</sup>_,
+ + _B<sub>3</sub>_ goes to  _x<sub>7</sub><sup>4</sup> x<sub>8</sub> x<sub>9</sub><sup>2</sup>_,
 
  + _B<sub>4</sub>_ goes to  _x<sub>7</sub> x<sub>8</sub><sup>4</sup> x<sub>9</sub><sup>2</sup>_,
 
- + _B<sub>5</sub>_ goes to  _x<sup>3</sup><sub>7</sub> x<sub>8</sub> x<sub>9</sub><sup>3</sup>_,
+ + _B<sub>5</sub>_ goes to  _x<sub>7</sub><sup>3</sup> x<sub>8</sub> x<sub>9</sub><sup>3</sup>_,
 
  + _B<sub>6</sub>_ goes to  _x<sub>7</sub> x<sub>8</sub><sup>3</sup> x<sub>9</sub><sup>3</sup>_.
 

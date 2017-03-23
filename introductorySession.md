@@ -401,7 +401,7 @@ In this section we turn to the methods included in [MatroidActivities][MA] that 
 
 By matroid duality internal and external activities are equivalent, so we will focus our attention here on internal activity. For the most part, every method available for computing internal activities has a counterpart for computing directly with external activities.
 
-Given an ordered matroid _M_ on the ground set _E_ and a subset _A_ of  _E_, an element _e_ is **internally active** with respect to _A_ if _e_ is in _A_ and there is a cocircuit _C<sup>\*</sup>_ contained in _E - A \cup e_ such that _e_ is the least element of _C<sup>\*</sup>_. If _e_ is in  _A_ and is not internally active, then it is called **internally passive**.
+Given an ordered matroid _M_ on the ground set _E_ and a subset _A_ of  _E_, an element _e_ is **internally active** with respect to _A_ if _e_ is in _A_ and there is a cocircuit _C<sup>\*</sup>_ contained in _E - A + e_ such that _e_ is the least element of _C<sup>\*</sup>_. If _e_ is in  _A_ and is not internally active, then it is called **internally passive**.
 
 Let's compute the internally active elements with respect to every subset of our running example. First let's view the ordered cocircuits.
 

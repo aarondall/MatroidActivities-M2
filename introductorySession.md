@@ -381,7 +381,7 @@ A second simplicial complex associated to any ordered matroid is the [(no) broke
 
 	o37 : SimplicialComplex
 
-For our small example, the broken circuit complex has two of the three (facets corresponding to) bases of _OM_ as facets. The third basis _x<sub>0</sub>x<sub>1</sub> is not a facet of the broken circuit complex because it is a broken circuit with respect to the ordering _2 < 0 < 1_.
+For our small example, the broken circuit complex has two of the three (facets corresponding to) bases of _OM_ as facets. The third basis _x<sub>0</sub>x<sub>1</sub>_ is not a facet of the broken circuit complex because it is a broken circuit with respect to the ordering _2 < 0 < 1_.
 
 The faces of the broken circuit complex of a matroid are a basis for the Orlik-Solomon algebra. To confirm this let's compute a basis of _A_.
 

@@ -222,7 +222,7 @@ Nonetheless it is worth noting that both the lattice of flats and the Tutte poly
 <a name="tests-for-unordered-matroids"></a>
 #### Tests for Unordered Matroids ####
 
-There are a number of methods included with [MatroidActivities][MA] for testing if a matroid belongs to a certain class. In Version 0.2 one can test if a matroid is simple, binary, ternary, regular, graphic, cographic, or paving. Once such a test has been run, its value is stored in the matroid cache. Let's check if our running example is a regular matroid. Before we run the test, let's look in on the cache.
+There are a number of methods included with [MatroidActivities][MA] for testing if a matroid belongs to a certain class. In Version 0.2 one can test if a matroid is simple, binary, ternary, regular, graphic, cographic, or paving. Once such a test has been run, its value is stored in the matroid cache. We will confirm that our running example is a regular matroid. Before we run the test, let's look in on the cache.
 
 	i23 : peek M.cache
 

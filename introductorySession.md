@@ -687,7 +687,7 @@ This multicomplex is pure since its maximal elements all have total degree 7. Le
 
 Using a variation of [this](http://www.texample.net/tikz/examples/plane-partition/) clever TikZ gadget we have a way to visualize the resulting multicomplex.
 
-<img src="https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/multicomplexes/interestingExample.png" width="200" height="200"/>
+<img src="https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/multicomplexes/interestingExample.png" width="400" height="400"/>
 
 <!-- ![interesting](https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/multicomplexes/interestingExample.png =482x340){ width=50% } -->
 

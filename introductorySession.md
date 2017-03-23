@@ -475,7 +475,7 @@ The fact that there one isomorphism class for our toy example is a fluke arising
 
 	o50 = 3
 
-This shows that, in general, the internal order of an ordered matroid is not an invariant of the underlying (unordered) matroid. On the other hand, there are properties of the internal order that are invariant under changes in the ordering on the ground set. The first is that the internal order is always a graded poset. Let's check this for all of the internal orders arising from _K_4_.
+This shows that, in general, the internal order of an ordered matroid is not an invariant of the underlying (unordered) matroid. On the other hand, there are properties of the internal order that are invariant under changes in the ordering on the ground set. The first is that the internal order is always a graded poset. Let's check this for all of the internal orders arising from _K<sub>4</sub>_.
 
 	i51 : all (PP, P -> isGraded P)
 

@@ -687,8 +687,9 @@ This multicomplex is pure since its maximal elements all have total degree 7. Le
 
 Using [this](https://github.com/aarondall/MatroidActivities-M2/blob/master/img/multicomplexes/tikzPlanePartition.tex) variation of [this](http://www.texample.net/tikz/examples/plane-partition/) clever TikZ gadget we have a way to visualize the resulting multicomplex.
 
+<p align="center">
 <img src="https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/multicomplexes/interestingExample.png" width="482" height="340"/>
-
+</p>
 <!-- ![interesting](https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/multicomplexes/interestingExample.png =482x340){ width=50% } -->
 
 We now turn to showing that the matroid _M_ is not in any of the classes of matroids for which Stanley's Conjecture was previously known to hold.

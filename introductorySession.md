@@ -572,7 +572,7 @@ In the previous section we saw how to compute basis types of an ordered matroid 
 
 In a 1977 [paper][ST], Richard Stanley showed that the _h_-polynomial of a matroid is an _O_-sequence and conjectured that it is a *pure* _O_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials  **M** such that
 
- 1. if _\mathbf{m} \in **M** and _\mathbf{m}'_ divides _\mathbf{m}_, then _\mathbf{m}' \in **M**,
+ 1. if _**m**_ in **M** and _**m**'_ divides _**m**_, then _**m**' \in **M**,
  2. the maximal elements of  **M** (with respect to divisibility) all have the same total degree, and
  3. the number of elements of  **M** with total degree _i_ equals the coefficient on _q^i_ in the _h_-polynomial of the matroid _M_.
 

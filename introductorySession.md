@@ -649,17 +649,17 @@ _µ(B<sub>f</sub>) = x<sup>|IP(B<sub>f</sub>)|</sup>_.
 
 Since every basis of _M_ has a unique decomposition into a join of _f_-principal bases this map extends uniquely to a map on the bases of _M_. In our example we have
 
- + _B\_1 \mapsto x^5\_7 x\_8 x\_9_,
+ + _B<sub>1</sub> --> x<sup>5</sup><sub>7</sub> x<sub>8</sub> x<sub>9</sub>_,
 
- + _B\_2 \mapsto x\_7 x\_8^5 x\_9_,
+ + _B<sub>2</sub> --> x<sub>7</sub> x<sub>8</sub><sup>5</sup> x<sub>9</sub>_,
 
- + _B\_3 \mapsto x^4\_7 x\_8 x\_9^2_,
+ + _B<sub>3</sub> --> x<sup>4</sup><sub>7</sub> x<sub>8</sub> x<sub>9</sub><sup>2</sup>_,
 
- + _B\_4 \mapsto x\_7 x\_8^4 x\_9^2_,
+ + _B<sub>4</sub> --> x<sub>7</sub> x<sub>8</sub><sup>4</sup> x<sub>9</sub><sup>2</sup>_,
 
- + _B\_5 \mapsto x^3\_7 x\_8 x\_9^3_,
+ + _B<sub>5</sub> --> x<sup>3</sup><sub>7</sub> x<sub>8</sub> x<sub>9</sub><sup>3</sup>_,
 
- + _B\_6 \mapsto x\_7 x\_8^3 x\_9^3_.
+ + _B<sub>6</sub> --> x<sub>7</sub> x<sub>8</sub><sup>3</sup> x<sub>9</sub><sup>3</sup>_.
 
 We store these monomials as a list.
 

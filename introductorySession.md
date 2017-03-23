@@ -626,10 +626,15 @@ By the general theory for internally perfect matroids, it follows that the matro
 Since each of the maximal bases is internally perfect, there is a unique way to write each as a join of _f_-principal bases. We have
 
  + B<sub>1</sub> = 789<sup>1346</sup> = 7<sup>1346</sup><sub>25</sub> v 8<sub>012346</sub> 						v 9<sub>013456</sub>
- + B<sub>2</sub> = 789<sup>1345</sup> = 7<sub>012345</sub> 						v 8<sup>1345</sup><sub>26</sub>} v 9<sub>013456</sub>
+
+ + B<sub>2</sub> = 789<sup>1345</sup> = 7<sub>012345</sub> 						v 8<sup>1345</sup><sub>26</sub> v 9<sub>013456</sub>
+
  + B<sub>3</sub> = 789<sup>2346</sup> = 7<sup>346</sup>025<sub></sub> v 8<sub>012346</sub> 						v 9<sup>2</sup><sub>03456</sub>
+
  + B<sub>4</sub> = 789<sup>2345</sup> = 7<sub>012345</sub> 						v 8<sup>345</sup><sub>026</sub>  v 9<sup>2</sup><sub>03456</sub>
+
  + B<sub>5</sub> = 789<sup>1246</sup> = 7<sup>46</sup><sub>0125</sub> v 8<sub>012346</sub> 						v 9<sup>12</sup><sub>3456</sub>
+
  + B<sub>6</sub> = 789<sup>1245</sup> = 7<sub>012345</sub> 						v 8<sup>45</sup><sub>0126</sub>  v 9<sup>12</sup><sub>3456</sub>
 
 Notice that each internally passive element of a maximal basis occurs exactly once in the decomposition as joins of _f_-principal bases.

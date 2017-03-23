@@ -647,7 +647,7 @@ For a basis _B = S<sup>T</sup><sub>A</sub>_ and an _f_ in _S_ let _B<sub>f</sub>
 
 _µ(B<sub>f</sub>) = x<sup>|IP(B<sub>f</sub>)|</sup>_.
 
-Since every basis of _M_ has a unique decomposition into a join of _f_-principal bases this map extends uniquely to a map on the bases of _M_. In our example we have
+Since every basis of _M_ has a unique decomposition into a join of _f_-principal bases this map extends uniquely to a map on the bases of _M_. In our example the maximal bases are mapped to monomials as follows.
 
  + _B<sub>1</sub>_ goes to  _x<sub>7</sub><sup>5</sup> x<sub>8</sub> x<sub>9</sub>_,
 

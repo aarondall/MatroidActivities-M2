@@ -785,12 +785,12 @@ Finally, since _M_ is a rank 7 matroid on 10 elements, it satisfies the remainin
 [i8]: #i8
 [i17]: #i17
 [i32]: #i32
-<!-- Mouse over definitions -->
+ Mouse over definitions -->
 
-*[zonotopes]: affine projections of a cube
-*[face ideal]: i.e., the Stanley-Reisner ideal of the independence complex
-*[Cohen-Macaulay]: Krull dimension equals depth
-*[broken circuit]: a subset of the ground set of an ordered matroid equal to an ordered circuit with its least element removed
+<!-- *[zonotopes]: affine projections of a cube -->
+<!-- *[face ideal]: i.e., the Stanley-Reisner ideal of the independence complex -->
+<!-- *[Cohen-Macaulay]: Krull dimension equals depth -->
+<!-- *[broken circuit]: a subset of the ground set of an ordered matroid equal to an ordered circuit with its least element removed -->
 <!--
 tags:
 Macaulay2
@@ -805,4 +805,3 @@ polymake
 Polyhedra
 René Birkner
 Julian Pfeifle
--->

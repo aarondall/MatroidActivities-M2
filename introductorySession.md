@@ -762,7 +762,7 @@ Finally, since _M_ is a rank 7 matroid on 10 elements, it satisfies the remainin
 [Posets]: http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Posets/html/ "a package for working with partially ordered sets"
 [SC]: http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/SimplicialComplexes/html/ "a package for manipulating simplicial complexes"
 [ST]: http://www-math.mit.edu/~rstan/pubs/pubfiles/34.pdf "Cohen-Macaulay Complexes"
-[intOrd]: MatroidActivities-M2/img/internalOrders/r7n10interestingExample.png "internal order of an interesting matroid of rank 7 on 10 elements"
+[intOrd]: https://raw.githubusercontent.com/aarondall/MatroidActivities-M2/master/img/internalOrders/r7n10interestingExample.png "internal order of an interesting matroid of rank 7 on 10 elements"
 <!-- TOC -->
 
 [history]: #history

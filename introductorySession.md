@@ -629,7 +629,7 @@ Since each of the maximal bases is internally perfect, there is a unique way to 
 
  + B<sub>2</sub> = 789<sup>1345</sup> = 7<sub>012345</sub> 						v 8<sup>1345</sup><sub>26</sub> v 9<sub>013456</sub>
 
- + B<sub>3</sub> = 789<sup>2346</sup> = 7<sup>346</sup>025<sub></sub> v 8<sub>012346</sub> 						v 9<sup>2</sup><sub>03456</sub>
+ + B<sub>3</sub> = 789<sup>2346</sup> = 7<sup>346</sup><sub>025</sub> v 8<sub>012346</sub> 						v 9<sup>2</sup><sub>03456</sub>
 
  + B<sub>4</sub> = 789<sup>2345</sup> = 7<sub>012345</sub> 						v 8<sup>345</sup><sub>026</sub>  v 9<sup>2</sup><sub>03456</sub>
 

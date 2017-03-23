@@ -570,15 +570,15 @@ In the previous section we saw how to compute basis types of an ordered matroid 
 <a name="stanleys-conjecture"></a>
 #### Stanley's Conjecture  ####
 
-In a 1977 [paper][ST], Richard Stanley showed that the _h_-polynomial of a matroid is an _\mathcal{O}_-sequence and conjectured that it is a *pure* _\mathcal{O}_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials _\mathbf{M}_ such that
+In a 1977 [paper][ST], Richard Stanley showed that the _h_-polynomial of a matroid is an _O_-sequence and conjectured that it is a *pure* _O_-sequence. In other words the conjecture states that for any matroid _M_ there exists a collection of monomials _**M**_ such that
 
- 1. if _\mathbf{m} \in \mathbf{M}_ and _\mathbf{m}'_ divides _\mathbf{m}_, then _\mathbf{m}' \in \mathbf{M}_,
- 2. the maximal elements of _\mathbf{M}_ (with respect to divisibility) all have the same total degree, and
- 3. the number of elements of _\mathbf{M}_ with total degree _i_ equals the coefficient on _q^i_ in the _h_-polynomial of the matroid _M_.
+ 1. if _\mathbf{m} \in **M**_ and _\mathbf{m}'_ divides _\mathbf{m}_, then _\mathbf{m}' \in **M**_,
+ 2. the maximal elements of _**M**_ (with respect to divisibility) all have the same total degree, and
+ 3. the number of elements of _**M**_ with total degree _i_ equals the coefficient on _q^i_ in the _h_-polynomial of the matroid _M_.
 
 Such a collection of monomials is called a *pure multicomplex*.
 
-Stanley's Conjecture has spurred a great deal of research concerning _h_-polynomials of matroids and _\mathcal{O}_-sequences. It is known to hold for a rank _r_ matroid _M_ on _n_ elements with _c_ coloops if any of the following conditions hold:
+Stanley's Conjecture has spurred a great deal of research concerning _h_-polynomials of matroids and _O_-sequences. It is known to hold for a rank _r_ matroid _M_ on _n_ elements with _c_ coloops if any of the following conditions hold:
 
  + _M_ is paving;
  + _h_s (M)~\le~5_, where _s = r - c_ is the degree of the _h_-polynomial;
@@ -639,7 +639,7 @@ Since each of the maximal bases is internally perfect, there is a unique way to 
 
 Notice that each internally passive element of a maximal basis occurs exactly once in the decomposition as joins of _f_-principal bases.
 
-We now produce a pure multicomplex whose _\mathcal{O}_-sequence is precisely the _h_-vector of _M_. First we define a polynomial ring with variables indexed by those elements of the ground set of _M_ that are not in the lexicographically smallest basis.
+We now produce a pure multicomplex whose _O_-sequence is precisely the _h_-vector of _M_. First we define a polynomial ring with variables indexed by those elements of the ground set of _M_ that are not in the lexicographically smallest basis.
 
 	i64 : R = ZZ[x_7,x_8,x_9];
 
@@ -669,7 +669,7 @@ To create a multicomplex where these monomials are the maximal elements, we use 
 
 	i66 : multicomplex = fold (union, apply (maxMonomials, m -> divisorPoset m))
 
-This multicomplex is pure since its maximal elements all have the same total degree. Let's check that it has the correct _\mathcal{O}_-sequence using the `rankGeneratingFunction` method from the `Posets` package.
+This multicomplex is pure since its maximal elements all have the same total degree. Let's check that it has the correct _O_-sequence using the `rankGeneratingFunction` method from the `Posets` package.
 
 	i67 : rankGeneratingFunction multicomplex
 

@@ -10,7 +10,13 @@ Version 0.2 of `MatroidActivities` greatly expands on Version 0.1. There are new
  + TikZ rendering of the internal order and the external order split into two methods for improved visualization.
 
 ## Resources
-There are three resources for learning to use this package; the first two provided by the author and the third by the user. Every method in the package is documented and an attempt was made to make this documentation reasonably thorough. Moreover, an [introductory session](https://github.com/aarondall/MatroidActivities-M2/blob/master/introductorySession.md) is available as a guide to this package. Finally, and probably most importantly, is the user's curiosity about, and need for, such software.
+There are three resources for learning to use this package: the first two provided by the author and the third by the user.
+
+Every method in the package is documented and an attempt was made to make this documentation reasonably thorough. You can access the documentation in Macaulay2 using the `help` and `viewHelp` commands.
+
+Moreover, an [introductory session](https://github.com/aarondall/MatroidActivities-M2/blob/master/introductorySession.md) is available as a guide to this package.
+
+Finally, and probably most importantly, is the user's curiosity about, and need for, such software.
 
 ## Installation
 * First you will need a working version of `Macaulay2` (M2). Follow the instructions on the M2 [homepage](http://www.math.uiuc.edu/Macaulay2/) to download and install.

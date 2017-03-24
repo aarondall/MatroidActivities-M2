@@ -1,5 +1,5 @@
 # MatroidActivities-M2
-A package for working with external and internal activities of ordered matroids in Macaulay2, it is the companion code to the article [Internally Perfect Matroids](https://arxiv.org/abs/1510.04532).
+A package originally made for working with external and internal activities of ordered matroids in Macaulay2, it is the companion code to the article [Internally Perfect Matroids](https://arxiv.org/abs/1510.04532). It now includes a number of methods for working with unordered matroids.
 
 ## Functionality
 Version 0.2 of `MatroidActivities` greatly expands on Version 0.1. There are new methods for computing with both matroids and ordered matroids. The new functionality includes:
@@ -7,7 +7,7 @@ Version 0.2 of `MatroidActivities` greatly expands on Version 0.1. There are new
  + Methods for constructing a(n ordered) matroid from an ideal, simplicial complex, or central arrangement;
  + Methods for constructing the face ring, Chow ring, and Orlik-Solomon algebra of a matroid or ordered matroid;
  + Testing if a matroid is simple, binary, ternary, (co)graphic, regular, or paving;
- + Spliting the TikZ rendering of the internal order and the external order into two methods for improved rendering.
+ + TikZ rendering of the internal order and the external order split into two methods for improved visualization..
 
 ## Installation
 * First you will need a working version of `Macaulay2` (M2). Follow the instructions on the M2 [homepage](http://www.math.uiuc.edu/Macaulay2/) to download and install.

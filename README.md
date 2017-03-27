@@ -22,11 +22,12 @@ Finally, and probably most importantly, is the user's curiosity about, and need 
 * First you will need a working version of `Macaulay2` (M2). Follow the instructions on the M2 [homepage](http://www.math.uiuc.edu/Macaulay2/) to download and install.
 The source code for M2 is available on GitHub [here](https://github.com/Macaulay2/M2).
 
-* The `MatroidActivities` package builds on and extends J. Chen's `Matroids` package for M2. So for `MatroidActivities` to work you will need to have `Matroids` installed. You can get the source code for that package [here](https://github.com/jchen419/Matroids-M2). Then simply add it to `/Macaulay2/code` and enter the following into any M2 interactive shell:
+* The `MatroidActivities` package builds on and extends J. Chen's [Matroids](https://github.com/jchen419/Matroids-M2) package for M2. So for `MatroidActivities` to work you will need to have `Matroids` installed. You can get the source code for that package [here](https://github.com/jchen419/Matroids-M2/blob/master/Matroids.m2). Then simply add it to `/Macaulay2/code` and enter the following into any M2 interactive shell:
 
     ``i1: installPackage "Matroids"``
 
-* Finally add `MatroidActivities.m2` to `/Macaulay2/code` and run
+* Finally add [MatroidActivities.m2](https://github.com/aarondall/MatroidActivities-M2/blob/master/MatroidActivities.m2) to `/Macaulay2/code` and then run:
 
-    ``i2: installPackage "MatroidActivities"``
-    ``i3: loadPackage "MatroidActivities"``
+    `i2: installPackage "MatroidActivities"`
+
+    `i3: loadPackage "MatroidActivities"`

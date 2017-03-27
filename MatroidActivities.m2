@@ -66,79 +66,78 @@ newPackage (
 
 export {
 -- INTERNAL FUNCTIONS --
-    --"relativeOrder", -- internal function
-    --"monomialToList", -- internal function
-    --"listToTexString", -- internal function
+    --"relativeOrder", 
+    --"monomialToList", 
+    --"listToTexString", 
 -- ORDERED MATROID FUNCTIONALITY --
-    "OrderedMatroid", -- documented type
-    "orderedMatroid", -- documented method
-    "orderedBases", -- documented key
-    "orderedCircuits", -- documented key
-    "orderedCocircuits", -- documented key
-    "orderedGround", -- documented key
-    "orderedFlats", -- documented method
-    "activeElements", -- documented method
-    "duallyActiveElements", -- documented method
-    "externallyActiveElements", -- documented method
-    "externallyPassiveElements", -- documented method
-    "internallyActiveElements", -- documented method
-    "internallyPassiveElements", -- documented method
-    "externalOrder", -- documented method
-        "ShowExt", -- documented option
-    "internalOrder", -- documented method
-    "minimalBasis", -- documented
-    "internalBasisDecomposition", -- documented
-    "basisType", -- documented
-    "bjornersPartition", -- documented
-    "matroidOrlikSolomon", -- documented method
-    "brokenCircuitComplex", -- undocumented
-    "texExternalOrder", -- undocumented
-    "texInternalOrder", -- undocumented
-    "isActive", -- documented
-    "isDuallyActive", -- documented
-    "isInternallyPerfect", -- documented method
-    "IsInternallyPerfect", -- undocumented key
+    "OrderedMatroid", 
+    "orderedMatroid", 
+    "orderedBases", 
+    "orderedCircuits", 
+    "orderedCocircuits", 
+    "orderedGround", 
+    "orderedFlats", 
+    "activeElements", 
+    "duallyActiveElements", 
+    "externallyActiveElements", 
+    "externallyPassiveElements", 
+    "internallyActiveElements", 
+    "internallyPassiveElements", 
+    "externalOrder", 
+        "ShowExt", 
+    "internalOrder",
+    "minimalBasis", 
+    "internalBasisDecomposition",
+    "basisType",
+    "bjornersPartition",
+    "matroidOrlikSolomon",
+    "brokenCircuitComplex",
+    "texExternalOrder",
+    "texInternalOrder",
+    "isActive",
+    "isDuallyActive",
+    "isInternallyPerfect",
+    "IsInternallyPerfect",
 -- MATROID FUNCTIONALITY --
---    "circuitIdeal", --undocumented method
-    "CircuitIdeal", -- undocumented key
-    "IndependenceComplex", -- undocumented key 
-    "isRepresentableMatroid", -- undocumented test
-    "Presentations", -- undocumented key
-    "latticeOfFlats", -- documented method
-        "Reduced", -- option
-    "LatticeOfFlats", --undocumented key
-    "parallelClasses", -- documented
-    "matroidIndependenceComplex", --undocumented    
-        "ComputePoset", -- option
-        "complexAsPoset", -- key in simplicial complex cache
-    "matroidTuttePolynomial", -- documented
-    "matroidHPolynomial", -- documented
-    "matroidFVector", -- documented
-    "betaInvariant", -- undocumented
-    "matroidChowIdeal", -- documented   
-    "matroidChowRing", --documented
-    "matroidCharacteristicPolynomial", --undocumented
+    "CircuitIdeal",
+    "IndependenceComplex",
+    "Presentations",
+    "latticeOfFlats",
+        "Reduced",
+    "LatticeOfFlats",
+    "parallelClasses",
+    "matroidIndependenceComplex",
+        "ComputePoset",
+        "complexAsPoset",
+    "matroidTuttePolynomial",
+    "matroidHPolynomial",
+    "matroidFVector",
+    "betaInvariant",
+    "matroidChowIdeal",
+    "matroidChowRing",
+    "matroidCharacteristicPolynomial",
     -- Tests --
-    "isBinaryMatroid", --undocumented method
-    "IsBinaryMatroid", --undocumented key
-    "isCographicMatroid", --undocumented method
-    "IsCographicMatroid", --undocumented key
-    "isGraphicMatroid", --undocumented method
-    "IsGraphicMatroid", --undocumented key
-    "isPavingMatroid", --undocumented method
-    "IsPavingMatroid", --undocumented key
-    "isRegularMatroid", --undocumented method
-    "IsRegularMatroid", --undocumented key
-    "IsRepresentableMatroid", --undocumented 
-    "isSimpleMatroid", --undocumented method
-    "IsSimpleMatroid", --undocumented key
-    "isTernaryMatroid", --undocumented method
-    "IsTernaryMatroid", --undocumented key
+    "isBinaryMatroid",
+    "IsBinaryMatroid",
+    "isCographicMatroid",
+    "IsCographicMatroid",
+    "isGraphicMatroid",
+    "IsGraphicMatroid",
+    "isPavingMatroid",
+    "IsPavingMatroid",
+    "isRegularMatroid",
+    "IsRegularMatroid",
+    "isRepresentableMatroid",
+    "IsRepresentableMatroid",
+    "isSimpleMatroid",
+    "IsSimpleMatroid",
+    "isTernaryMatroid",
+    "IsTernaryMatroid",
 -- GRAPH FUNCTIONALITY --
-    "signedIncidenceMatrix", -- undocumented method
-        "FullRank", -- undocumented option
+    "signedIncidenceMatrix",
+        "FullRank",
 -- SIMPLICIAL COMPLEX FUNCTIONALITY 
-    "isMatroidIndependenceComplex" --undocumented method
+    "isMatroidIndependenceComplex"
     }
 
 hasAttribute = value Core#"private dictionary"#"hasAttribute"
